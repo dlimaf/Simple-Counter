@@ -1,12 +1,36 @@
+.body {
+    margin: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
 
-/* 
+}
+.digito {
+    background-color: rgb(18, 20, 20);
+    margin-left: 3px;
+    width: 150px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    border-radius: 8px;
+    font-size: 180px;
+    font-family: 'Times New Roman', Times, serif;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.simbolo {
+    background-color: rgb(18, 20, 20);
+    margin-left: 3px;
+    padding: 10px;
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    border-radius: 8px;
+    font-size: 180px;
+    font-family: 'Times New Roman', Times, serif;
+}
